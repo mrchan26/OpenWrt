@@ -24,7 +24,7 @@ fi
 # 全脚本源码通用diy2.sh文件
 Diy_all2() {
 DIY_GET_COMMON_SH
-if [ -n "$(ls -A "${Home}/package/mcydia/ddnsto" 2>/dev/null)" ]; then
+if [ -n "$(ls -A "${Home}/package/MCydia/ddnsto" 2>/dev/null)" ]; then
 mv package/mcydia/ddnsto package/network/services
 fi
 if [[ `grep -c "# CONFIG_PACKAGE_ddnsto is not set" "${PATH1}/${CONFIG_FILE}"` -eq '0' ]]; then
