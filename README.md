@@ -19,9 +19,9 @@
 2. [全部插件](https://www.right.com.cn/forum/thread-3682029-1-1.html)
 3. [全部插件github](https://github.com/RealKiro/gitblog/issues/4)
 
-固件说明：
-lean源码版本，内核为5.4（ipv4）版
+## 固件说明：
+  - lean源码版本，内核为5.4（ipv4）版
 
-自动每7天更新一次，手动不定时更新
+ -  自动每7天更新一次，手动不定时更新
 
 ip：10.10.10.12 密码：为空
