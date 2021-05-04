@@ -20,7 +20,7 @@ sed -i "s/OpenWrt /JasonFreedom $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ 
 
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                                    # 设置密码为空
 
-sed -i 's/PATCHVER:=5.4/PATCHVER:=4.19/g' target/linux/x86/Makefile                       # 修改内核版本为4.19
+#sed -i 's/PATCHVER:=5.4/PATCHVER:=4.19/g' target/linux/x86/Makefile                      # 修改内核版本为4.19
 
 
 # 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
